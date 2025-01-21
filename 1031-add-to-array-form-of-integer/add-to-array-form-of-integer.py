@@ -7,7 +7,7 @@ class Solution:
         for x in num:
             result = result * 10 + x
         res = result+k
-        out = [int(x) for x in str(res)]
-        # for p in str(res):
-        #     out.append(int(p))
+        # out = [int(x) for x in str(res)]
+        for p in str(res):
+            out.append(int(p))
         return out
