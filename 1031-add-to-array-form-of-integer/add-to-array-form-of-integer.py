@@ -6,7 +6,6 @@ class Solution:
         result = 0
         for x in num:
             result = result * 10 + x
-        # x = int(''.join(f"{i}" for i in num))
         res = result+k
         out = [int(x) for x in str(res)]
         # for p in str(res):
