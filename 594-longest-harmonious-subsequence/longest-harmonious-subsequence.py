@@ -5,6 +5,6 @@ class Solution:
         res = 0
         for x in nums_count:
             if x+1 in nums_count:
-                total = nums_count[x]+nums_count[x+1]
+                total = (nums_count[x]+nums_count[x+1])
                 res = max(res,total)
         return res
